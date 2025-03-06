@@ -31,7 +31,7 @@ int main() {
 				}
 			}
 			int k = 0;//счетчик для столбца
-			for (int Line = 0; Line < dimension; Line++) { //проверяем матрицу со столцом
+			for (int Line = 0; Line < dimension; Line++) { //проверяем матрицу по столбцу
 				//равным предыдущей строке
 				if (matrix[Line][y] == 1) {
 					k++;
